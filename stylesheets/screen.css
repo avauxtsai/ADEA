@@ -89,23 +89,56 @@ h1 {
   /* line 20, ../sass/screen.scss */
   h1 {
     margin-top: 35px;
-    font-size: 1.5rem;
+    font-size: 1.8rem;
   }
 }
 
 /* line 29, ../sass/screen.scss */
 .adea {
-  margin-top: 200px;
+  margin-top: 180px;
   height: 100px;
 }
-@media screen and (max-width: 767px) {
-  /* line 29, ../sass/screen.scss */
-  .adea {
+/* line 32, ../sass/screen.scss */
+.adea img {
+  height: 100px;
+}
+@media screen and (max-width: 450px) {
+  /* line 36, ../sass/screen.scss */
+  .adea img {
     height: 70px;
   }
 }
 
-/* line 37, ../sass/screen.scss */
+/* line 42, ../sass/screen.scss */
+.social-icons {
+  text-align: center;
+  width: 100%;
+  position: fixed;
+  left: 10px;
+  bottom: 60px;
+}
+
+/* line 49, ../sass/screen.scss */
+.social-icons li {
+  display: inline-block;
+  list-style-type: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+}
+
+/* line 55, ../sass/screen.scss */
+.social-icons li a {
+  border-bottom: none;
+}
+
+/* line 58, ../sass/screen.scss */
+.social-icons li img {
+  width: 42px;
+  height: 42px;
+  margin-right: 10px;
+}
+
+/* line 64, ../sass/screen.scss */
 .footer {
   text-align: center;
   width: 100%;
@@ -113,7 +146,7 @@ h1 {
   bottom: 20px;
 }
 @media screen and (max-width: 767px) {
-  /* line 37, ../sass/screen.scss */
+  /* line 64, ../sass/screen.scss */
   .footer {
     font-size: .9rem;
   }
