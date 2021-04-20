@@ -136,7 +136,7 @@ p {
 @media screen and (max-width: 450px) {
   /* line 49, ../sass/screen.scss */
   .adea {
-    margin-top: 50px;
+    margin-top: 40px;
   }
   /* line 57, ../sass/screen.scss */
   .adea img {
@@ -150,7 +150,7 @@ p {
   width: 100%;
   position: fixed;
   left: 10px;
-  bottom: 60px;
+  bottom: 40px;
 }
 
 /* line 70, ../sass/screen.scss */
@@ -178,7 +178,7 @@ p {
   text-align: center;
   width: 100%;
   position: fixed;
-  bottom: 20px;
+  bottom: 10px;
 }
 @media screen and (max-width: 767px) {
   /* line 85, ../sass/screen.scss */
