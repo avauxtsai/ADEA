@@ -65,7 +65,7 @@ p {
     width: 100%;
     position: fixed;
     left: 10px; //sns icons aren't in center
-    bottom: 40px;
+    bottom: 38px;
     }  
   .social-icons li {
     display: inline-block;
@@ -87,7 +87,8 @@ p {
     width: 100%;
     position: fixed;
     bottom: 10px;
+    font-size: .8em;
     @media screen and (max-width: 767px) {
-        font-size: .9rem;
+        font-size: .7rem;
     }   
 }

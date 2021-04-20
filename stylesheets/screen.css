@@ -150,7 +150,7 @@ p {
   width: 100%;
   position: fixed;
   left: 10px;
-  bottom: 40px;
+  bottom: 38px;
 }
 
 /* line 70, ../sass/screen.scss */
@@ -179,10 +179,11 @@ p {
   width: 100%;
   position: fixed;
   bottom: 10px;
+  font-size: .8em;
 }
 @media screen and (max-width: 767px) {
   /* line 85, ../sass/screen.scss */
   .footer {
-    font-size: .9rem;
+    font-size: .7rem;
   }
 }
